@@ -1,0 +1,43 @@
+* {
+  user-select: none;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #dcdcdc;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #7d858c;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #7d858c;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  color: #7f8588;
+  font-family: 'SF Pro Text', -apple-system, BlinkMacSystemFont, Roboto, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  background: #f6f6f6;
+  overflow: hidden;
+}
+
+main {
+  width: 600px;
+  border: #dedede 1px solid;
+  border-radius: 20px;
+  padding: 10px;
+  background: #fff;
+  overflow: hidden;
+}
